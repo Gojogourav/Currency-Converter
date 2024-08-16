@@ -12,8 +12,8 @@ function App() {
 
   const currencyLog = useCurrencyData(currencyFrom)
 
-  const [amountTo,setAmountTo] = useState()
-  const [amountFrom,setAmountFrom] = useState()
+  const [amountTo,setAmountTo] = useState(0)
+  const [amountFrom,setAmountFrom] = useState(0)
 
   const keys = Object.keys(currencyLog)
 
